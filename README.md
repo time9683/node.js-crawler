@@ -13,8 +13,8 @@ This project is a Node.js application that crawls rates and stores them in a dat
 
 1. Clone the repository:
     ```sh
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/time9683/node.js-crawler
+    cd node.js-crawler
     ```
 
 2. Install dependencies:
@@ -25,7 +25,7 @@ This project is a Node.js application that crawls rates and stores them in a dat
 
 ### Running the Application
 
-1. Start the development server:
+1. Start the development server and initialize the database:
     ```sh
     pnpm run dev
     ```
