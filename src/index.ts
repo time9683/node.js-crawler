@@ -17,9 +17,8 @@ setupSwagger(app)
 // // Initialize the database
 initDB()
 
-// // every day at 12:00 pm
-// // every 2 minutes
-schedule.scheduleJob("*/2 * * * *", async () => {
+//every day at 6:00 am
+schedule.scheduleJob("0 6 * * *", async () => {
   console.log("Crawling rate")
   try {
     const rate = await CrawlerRate()
